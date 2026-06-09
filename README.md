@@ -1,6 +1,6 @@
-# CIG EMMP - Campus Event Media Management Platform
+# CIG Event and Media Management Platform
 
-CIG EMMP is a secure, full-stack campus media management platform that serves as a unified repository for campus group events. The platform features secure server-side S3 upload pipelines, dynamic image transcoding, AWS Rekognition-powered facial indexing/labeling, and role-based access control.
+cig-media-platform is a secure, full-stack campus media management platform that serves as a unified repository for campus group events. The platform features secure server-side S3 upload pipelines, dynamic image transcoding, AWS Rekognition-powered facial indexing/labeling, and role-based access control.
 
 ---
 
