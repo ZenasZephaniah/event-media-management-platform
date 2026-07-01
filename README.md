@@ -79,7 +79,7 @@ Start your backend development server:
 ```bash
 npm run dev
 ```
-*The server will boot by default on `http://localhost:5001`.*
+The server will boot by default on `http://localhost:5001`.
 
 ### 3. Frontend Configuration
 Create a `.env` file inside your `frontend/` directory:
@@ -113,5 +113,5 @@ To deploy the backend to Render, connect your GitHub repository and set the foll
 ### Frontend (Hosted on Vercel)
 Deploy your frontend folder to Vercel and apply the following environment variable:
 
-1. **NEXT_PUBLIC_API_URL**: Set this to your live production backend URL provided by Render (e.g., `https://cig-backend.onrender.com`). *Do not include a trailing slash.*
+1. **NEXT_PUBLIC_API_URL**: Set this to your live production backend URL provided by Render (e.g., `https://cig-backend.onrender.com`). Do not include a trailing slash.
 2. **Cache-Busting Design**: The frontend's `fetch` system uses strict dynamic parameters (`?t=${Date.now()}`) and `{ cache: "no-store" }` to prevent Vercel's edge network from caching `GET` requests, guaranteeing instant updates to your Gallery Feed upon uploads.
