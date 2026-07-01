@@ -1,6 +1,6 @@
 # Campus Event Media Management Platform
 
-CIG EMMP is a secure, decoupled full-stack Event Media Management Platform designed for campus organizations to organize event galleries, automate image processing, and streamline photo delivery. Using a stateless Next.js frontend and an Express.js API gateway, the platform integrates AWS Rekognition to automatically index faces, tag images, and serve personalized "Photos of Me" feeds to registered users.
+A secure, decoupled full-stack Event Media Management Platform designed for campus organizations to organize event galleries, automate image processing, and streamline photo delivery. Using a stateless Next.js frontend and an Express.js API gateway, the platform integrates AWS Rekognition to automatically index faces, tag images, and serve personalized "Photos of Me" feeds to registered users.
 
 ---
 
